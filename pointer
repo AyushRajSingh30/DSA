@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void update(int *A,int *B) {
+    // Complete this function    
+}
+
+int main() {
+    int A, B;
+    int *P = &A, *Q = &B;
+    
+    scanf("%d %d", &A, &B);
+    update(P, Q);
+    printf("%d\n%d", A, B);
+
+    return 0;
+}
